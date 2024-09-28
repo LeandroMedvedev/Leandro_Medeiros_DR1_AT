@@ -1,90 +1,91 @@
 import { Link } from 'react-router-dom';
-import './style.css';
+
+import styles from './style.module.css';
 
 function Home() {
   return (
-    <div className='container'>
-      <h1 className='title'>Mobile-First UI com React</h1>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Mobile-First UI com React</h1>
       <h2>Assessment</h2>
 
       <ul>
-        <li className='item'>
-          <Link className='link' to='/task-one'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-one'>
             Tarefa 01
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-two'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-two'>
             Tarefa 02
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-three'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-three'>
             Tarefa 03
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-four'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-four'>
             Tarefa 04
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-five'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-five'>
             Tarefa 05
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-six'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-six'>
             Tarefa 06
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-seven'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-seven'>
             Tarefa 07
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-eight'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-eight'>
             Tarefa 08
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-nine'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-nine'>
             Tarefa 09
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-ten'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-ten'>
             Tarefa 10
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-eleven'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-eleven'>
             Tarefa 11
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-twelve'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-twelve'>
             Tarefa 12
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-thirteen'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-thirteen'>
             Tarefa 13
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-fourteen'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-fourteen'>
             Tarefa 14
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-fifteen'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-fifteen'>
             Tarefa 15
           </Link>
         </li>
-        <li className='item'>
-          <Link className='link' to='/task-sixteen'>
+        <li className={styles.item}>
+          <Link className={styles.link} to='/task-sixteen'>
             Tarefa 16
           </Link>
         </li>

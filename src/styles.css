@@ -71,11 +71,6 @@ a {
   color: var(--ebony);
 }
 
-.link:hover {
-  font-weight: 900;
-  font-size: 1.13rem;
-}
-
 p {
   text-align: justify;
   text-indent: 20px;
