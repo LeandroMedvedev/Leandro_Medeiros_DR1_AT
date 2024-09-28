@@ -1,9 +1,10 @@
-import styles from './index.module.css';
+import Header from './components/Header';
+import styles from './style.module.css';
 
 function Task01() {
   return (
     <div className={styles.conteiner}>
-      <p>Task 01</p>
+      <Header />
     </div>
   );
 }

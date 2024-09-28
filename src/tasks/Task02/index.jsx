@@ -1,4 +1,4 @@
-import styles from './index.module.css';
+import styles from './style.module.css';
 
 function Task02() {
   return (

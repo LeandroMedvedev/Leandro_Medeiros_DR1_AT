@@ -1,4 +1,5 @@
 export { default as Home } from './Home';
+export { default as Svg } from './Svg';
 export { default as Task01 } from '../tasks/Task01';
 export { default as Task02 } from '../tasks/Task02';
 export { default as Task03 } from '../tasks/Task03';
