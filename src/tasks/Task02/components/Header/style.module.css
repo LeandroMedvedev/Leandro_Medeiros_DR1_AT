@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 1rem;
+  color: var(--github-graffiti);
+  font-family: var(--font-poppins);
+}
+
+.header div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.logoIcon svg {
+  width: 70px;
+  margin: 0 3px;
+  fill: var(--github-graffiti);
+}
+
+.menuIcon {
+  margin: 0 10px;
+  flex-grow: 1;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.menuItem {
+  text-align: left;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    background-color: var(--github-graffiti);
+  }
+
+  .header div {
+    background-color: var(--ebony);
+  }
+
+  .menuItem {
+    color: var(--white);
+  }
+
+  .menuIcon {
+    color: var(--white);
+  }
+
+  .logoIcon svg {
+    fill: var(--white);
+  }
+}
