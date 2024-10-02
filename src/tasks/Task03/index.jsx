@@ -1,9 +1,10 @@
 import styles from './style.module.css';
+import Display from './components/Display';
 
 function Task03() {
   return (
-    <div className={styles.conteiner}>
-      <p>Task 03</p>
+    <div className={styles.container}>
+      <Display />
     </div>
   );
 }

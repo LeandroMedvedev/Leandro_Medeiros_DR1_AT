@@ -82,8 +82,4 @@ p {
     background-color: var(--github-graffiti);
     color: var(--white);
   }
-
-  a {
-    color: var(--white);
-  }
 }
