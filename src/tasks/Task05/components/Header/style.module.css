@@ -1,0 +1,14 @@
+.header {
+  grid-area: header;
+  grid-template-columns: 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--github-graffiti);
+}
+
+@media (min-width: 768px) {
+  .header {
+    grid-column: span 3;
+  }
+}

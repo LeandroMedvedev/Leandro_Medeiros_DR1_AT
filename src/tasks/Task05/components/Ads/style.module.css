@@ -1,0 +1,14 @@
+.ads {
+  grid-area: ads;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--github-graffiti);
+}
+
+@media (min-width: 768px) {
+  .ads {
+    grid-column: span 1;
+  }
+}

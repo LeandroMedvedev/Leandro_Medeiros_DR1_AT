@@ -1,0 +1,21 @@
+.globalMenu {
+  padding-left: 15px;
+  grid-area: globalMenu;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  border: 1px solid var(--github-graffiti);
+}
+
+@media (min-width: 768px) {
+  .globalMenu {
+    padding-left: 0;
+    grid-column: span 2;
+    justify-content: center;
+  }
+
+  .bars {
+    display: none;
+  }
+}
