@@ -1,0 +1,8 @@
+.globalMenu {
+  grid-area: globalMenu;
+  border: 1px solid var(--github-graffiti);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}

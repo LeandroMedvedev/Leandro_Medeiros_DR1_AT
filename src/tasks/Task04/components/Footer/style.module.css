@@ -1,0 +1,7 @@
+.footer {
+  grid-area: footer;
+  border: 1px solid var(--github-graffiti);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
