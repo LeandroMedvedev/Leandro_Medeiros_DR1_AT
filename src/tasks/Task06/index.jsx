@@ -1,9 +1,10 @@
 import styles from './style.module.css';
+import ShoppingList from './components/ShoppingList';
 
 function Task06() {
   return (
-    <div className={styles.conteiner}>
-      <p>Task 06</p>
+    <div className={styles.container}>
+      <ShoppingList />
     </div>
   );
 }

@@ -82,4 +82,9 @@ p {
     background-color: var(--github-graffiti);
     color: var(--white);
   }
+
+  .App {
+    background-color: var(--github-graffiti);
+    color: var(--white);
+  }
 }
