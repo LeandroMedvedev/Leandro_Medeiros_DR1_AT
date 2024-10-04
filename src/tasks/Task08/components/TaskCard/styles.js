@@ -15,24 +15,38 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
+  width: 100%;
   width: 310px;
-  min-height: 500px;
   border: 1px solid var(--shuttle-grey);
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   margin: 10px 0;
+
+  @media (min-width: 768px) {
+    width: 512px;
+  }
 `;
 
 export const ProfileSection = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-flow: row wrap;
+  }
 `;
 
 export const ProfileImage = styled.img`
   width: 100%;
   height: 150px;
+
+  @media (min-width: 768px) {
+    flex: 1;
+    height: 100%;
+    border-bottom: 1px solid var(--shuttle-grey);
+  }
 `;
 
 export const Info = styled.div`
@@ -51,10 +65,16 @@ export const Info = styled.div`
     font-size: 1.8rem;
     font-weight: 700;
   }
+
+  @media (min-width: 768px) {
+    flex: 1;
+    border-top: none;
+    border-left: 1px solid var(--shuttle-grey);
+    justify-content: space-evenly;
+  }
 `;
 
 export const Icons = styled.div`
-  margin-top: 10px;
   padding: 10px;
   border-bottom: 1px solid var(--shuttle-grey);
   display: flex;
@@ -63,6 +83,12 @@ export const Icons = styled.div`
   svg {
     font-size: 2rem;
     cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 1px solid var(--shuttle-grey);
   }
 `;
 

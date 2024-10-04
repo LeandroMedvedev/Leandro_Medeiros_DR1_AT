@@ -1,10 +1,13 @@
 import styles from './style.module.css';
 import TaskCard from './components/TaskCard';
+import { EMPLOYEE_TASKS } from '../../constants';
 
 function Task07() {
   return (
     <div className={styles.container}>
-      <TaskCard />
+      {EMPLOYEE_TASKS.map((employee, index) => (
+        <TaskCard key={index} employee={employee} />
+      ))}
     </div>
   );
 }
