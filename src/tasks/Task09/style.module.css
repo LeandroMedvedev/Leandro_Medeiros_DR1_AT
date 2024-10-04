@@ -1,0 +1,16 @@
+.conteiner {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (prefers-color-scheme: dark) {
+  .conteiner {
+    background-color: var(--github-graffiti);
+  }
+}
