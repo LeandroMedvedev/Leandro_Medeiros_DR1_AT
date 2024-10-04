@@ -11,4 +11,55 @@ const ITEMS = [
   { id: 10, name: 'Samsung Galaxy Tab S7', price: 649.99, quantity: 3 },
 ];
 
-export { ITEMS };
+const EMPLOYEE_TASKS = [
+  {
+    id: 1,
+    name: 'Adrian Monk',
+    birthDate: '1959-10-17',
+    department: 'Investigação',
+    position: 'Detetive Consultor',
+    tasks: [
+      {
+        taskId: 101,
+        taskName: 'Investigar caso do desaparecimento',
+        completed: false,
+      },
+      { taskId: 102, taskName: 'Organizar escritório', completed: true },
+      { taskId: 103, taskName: 'Relatório semanal', completed: false },
+    ],
+  },
+  {
+    id: 2,
+    name: 'Sharona Fleming',
+    birthDate: '1970-03-25',
+    department: 'Assistência',
+    position: 'Assistente',
+    tasks: [
+      {
+        taskId: 201,
+        taskName: 'Acompanhar Monk na investigação',
+        completed: true,
+      },
+      { taskId: 202, taskName: 'Agendar reuniões', completed: false },
+      {
+        taskId: 203,
+        taskName: 'Resolver questões administrativas',
+        completed: false,
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: 'Leland Stottlemeyer',
+    birthDate: '1953-06-09',
+    department: 'Polícia',
+    position: 'Capitão',
+    tasks: [
+      { taskId: 301, taskName: 'Supervisionar detetives', completed: true },
+      { taskId: 302, taskName: 'Revisar casos arquivados', completed: false },
+      { taskId: 303, taskName: 'Reunião com o prefeito', completed: true },
+    ],
+  },
+];
+
+export { EMPLOYEE_TASKS, ITEMS };
