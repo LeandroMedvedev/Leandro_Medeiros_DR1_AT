@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--github-graffiti);
+}
+
+@media (min-width: 768px) {
+  .footer {
+    grid-area: footer;
+  }
+}

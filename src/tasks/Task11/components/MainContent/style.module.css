@@ -1,0 +1,13 @@
+.mainContent {
+  display: flex;
+  flex: 5;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--github-graffiti);
+}
+
+@media (min-width: 768px) {
+  .mainContent {
+    grid-area: mainContent;
+  }
+}

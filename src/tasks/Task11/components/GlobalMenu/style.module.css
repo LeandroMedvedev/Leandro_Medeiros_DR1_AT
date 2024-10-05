@@ -1,0 +1,25 @@
+.globalMenu {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 4;
+  gap: 20px;
+  border: 1px solid var(--github-graffiti);
+}
+
+.bars {
+  font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+  .globalMenu {
+    grid-area: globalMenu;
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .bars {
+    display: none;
+  }
+}

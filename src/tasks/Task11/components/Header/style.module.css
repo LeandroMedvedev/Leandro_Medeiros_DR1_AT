@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border: 1px solid var(--github-graffiti);
+}
+
+@media (min-width: 768px) {
+  .header {
+    grid-area: header;
+  }
+}
