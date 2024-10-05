@@ -8,15 +8,9 @@ function Header() {
     <header className={styles.header}>
       <HamburguerMenu />
 
-      <nav>
-        <ul className={styles.list}>
-          <li className={styles.listItem}>
-            <a href='#profile-sync'>ProfileSync</a>
-          </li>
-        </ul>
-      </nav>
+      <p className={styles.brand}>ProfileSync</p>
 
-      <Svg className={styles.logoIcon} alt='Terminal' src={user} />
+      <Svg className={styles.logoIcon} alt='User' src={user} />
     </header>
   );
 }

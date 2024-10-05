@@ -39,7 +39,7 @@ function HamburguerMenu() {
   }, [isOpen]);
 
   return (
-    <div className={styles.conteiner}>
+    <>
       <div
         className={`${styles.hamburger} ${isOpen && styles.active}`}
         onClick={toggleMenu}
@@ -56,28 +56,28 @@ function HamburguerMenu() {
       >
         <ul className={styles.list}>
           <li className={styles.listItem}>
-            <a href='#option-one' onClick={() => setIsOpen(false)}>
-              Opção 1
+            <a href='#start' onClick={() => setIsOpen(false)}>
+              Início
             </a>
           </li>
           <li className={styles.listItem}>
-            <a href='#option-two' onClick={() => setIsOpen(false)}>
-              Opção 2
+            <a href='#profile' onClick={() => setIsOpen(false)}>
+              Perfil
             </a>
           </li>
           <li className={styles.listItem}>
-            <a href='#option-three' onClick={() => setIsOpen(false)}>
-              Opção 3
+            <a href='#messages' onClick={() => setIsOpen(false)}>
+              Mensagens
             </a>
           </li>
           <li className={styles.listItem}>
-            <a href='#option-four' onClick={() => setIsOpen(false)}>
-              Opção 4
+            <a href='#notifications' onClick={() => setIsOpen(false)}>
+              Notificações
             </a>
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 }
 
