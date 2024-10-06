@@ -1,13 +1,16 @@
 .header {
+  width: 20%;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
   border: 1px solid var(--github-graffiti);
 }
 
 @media (min-width: 768px) {
   .header {
+    width: 100%;
+    height: 100%;
     grid-area: header;
   }
 }

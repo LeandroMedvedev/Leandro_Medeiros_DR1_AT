@@ -9,10 +9,8 @@ import MainContent from './components/MainContent';
 function Task11() {
   return (
     <div className={styles.container}>
-      <div className={styles.upperBlock}>
-        <Header />
-        <GlobalMenu />
-      </div>
+      <GlobalMenu />
+      <Header />
       <ContextMenu />
       <MainContent />
       <Ads />

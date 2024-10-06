@@ -1,6 +1,7 @@
 .ads {
+  width: 100%;
+  height: 18vh;
   display: flex;
-  flex: 2;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--github-graffiti);
@@ -8,6 +9,7 @@
 
 @media (min-width: 768px) {
   .ads {
+    height: 100%;
     grid-area: ads;
   }
 }

@@ -2,7 +2,7 @@ import styles from './style.module.css';
 
 function Task15() {
   return (
-    <div className={styles.conteiner}>
+    <div className={styles.container}>
       <p>Task 15</p>
     </div>
   );
