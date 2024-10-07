@@ -1,0 +1,72 @@
+.container {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: var(--font-syne-mono);
+}
+
+.container > h2 {
+  margin-bottom: 40px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.optionButton {
+  border: 1px solid var(--white);
+  box-shadow: 1px 2px 3px var(--ebony);
+  border-radius: 6px;
+  font-family: var(--font-syne-mono);
+  padding: 10px;
+  border: 1px solid var(--light-grey);
+  background-color: var(--white-smoke);
+  cursor: pointer;
+}
+
+.optionButton.correct {
+  background-color: #26ca31;
+  color: var(--white);
+}
+
+.optionButton.incorrect {
+  background-color: var(--dark-red);
+  color: var(--white);
+}
+
+.submitButton {
+  border: 1px solid var(--white);
+  box-shadow: 1px 2px 3px var(--ebony);
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--ciano);
+  font-family: var(--font-poppins);
+  color: var(--white);
+}
+
+.explanation {
+  margin-top: 20px;
+}
+
+.nextButton {
+  border: 1px solid var(--white);
+  box-shadow: 1px 2px 3px var(--ebony);
+  border-radius: 6px;
+  font-family: var(--font-syne-mono);
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--ciano);
+  color: var(--white);
+}
+
+@media (orientation: landscape) {
+  .options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
